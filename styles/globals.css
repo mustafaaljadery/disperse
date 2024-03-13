@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.textshadow{
+  text-shadow:
+       2px 2px 0 #000,
+     -2px -2px 0 #000,  
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+       2px 2px 0 #000;
+}
+
+@font-face{
+  font-family: Silka Black;
+  src: url(../public/fonts/silka-black-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka-Bold;
+  src: url(../public/fonts/silka-bold-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka Extra Light; 
+  src: url(../public/fonts/silka-extralight-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka Light;
+  src: url(../public/fonts/silka-light-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka Medium;
+  src: url(../public/fonts/silka-medium-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka Regular;
+  src:url(../public/fonts/silka-regular-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka-semi-bold; 
+  src:url(../public/fonts/silka-semibold-webfont.ttf)
+}
+
+@font-face{
+  font-family: Silka Thin;
+  src: url(../public/fonts/silka-thin-webfont.ttf)
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../public/fonts/avenir-next.otf)
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url(../public/fonts/pacifico.ttf);
+}
+
+@font-face {
+  font-family: "Bangers";
+  src: url(../public/fonts/bangers.ttf);
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url(../public/fonts/lobster.ttf);
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../public/fonts/roboto.ttf);
+}
+
+@font-face {
+  font-family: "Lilita One";
+  src: url(../public/fonts/lilita-one.ttf);
+}
+
+@font-face {
+  font-family: "Rye";
+  src: url(../public/fonts/rye.ttf);
+}
+
+@font-face {
+  font-family: "Bungee";
+  src: url(../public/fonts/bungee.ttf);
+}
+
+.rye-font{
+  font-family: 'Rye';
+}
+
+.bungee-font{
+  font-family: 'Bungee';
+}
+
+.lilita-one-font{
+  font-family: 'Lilita One';
+}
+
+.roboto-font{
+  font-family: 'Roboto';
+}
+
+
+.lobster-font{
+  font-family: 'Lobster';
+}
+
+.bangers-font{
+  font-family: 'Bangers';
+}
+
+.pacifico-font{
+  font-family: 'Pacifico';
+}
+
+.avenir-next-font{
+  font-family: 'Avenir Next';
+}
+
+.silka-black{
+  font-family: Silka Black;
+}
+
+.silka-bold{
+  font-family: Silka-Bold;
+}
+
+.silka-extralight{
+  font-family: Silka Extra Light;
+}
+
+.silka-light{
+  font-family: Silka Light;
+}
+
+.silka-medium{
+  font-family: Silka Medium; 
+}
+
+.silka-regular{
+  font-family: Silka Regular;
+}
+
+.silka-semibold{
+  font-family: Silka-semi-bold;
+}
+
+.silka-thin{
+  font-family: Silka Thin;
+}

@@ -1,0 +1,81 @@
+import {Tab, Tabs} from "nextra-theme-docs"
+
+# Twitter Integration
+
+Guide to connect Twitter to Disperse.
+
+<img className="px-8 mt-10 rounded-lg" src="/images/guide/twitter.png" />
+
+**Please follow the guide below to connect Twitter after their new API changes under Elon.**
+
+## Overview
+
+**Table of Contents**
+
+[Step 1: Create a Twitter Developer Account](/guides/twitter#1-create-a-twitter-developer-account)
+
+[Step 2: Getting the API Keys](/guides/twitter#2-getting-the-api-keys)
+
+[Step 3: Enable Permissions](/guides/twitter#3-enable-permissions)
+
+[Step 4: Connect to Disperse](/guides/twitter#4-connect-to-disperse)
+
+
+## 1. Create a Twitter Developer Account
+
+Go to the link below and create a developer account
+
+[https://developer.twitter.com/en/portal/dashboard](https://developer.twitter.com)
+
+
+Twitter may ask you to to describe your use-cases, state that you will be using the API to publish tweets as well as reply to other tweets.
+
+The following is an example: 
+
+
+*I will be using the Twitter API to schedule my tweets and threads. This will allow me to create a consistent posting schedule where I plan on posting multiple times a week to build a following on twitter. Finally, I want to use the Twitter API to repurpose content from my other social medias on Twitter.*
+
+
+## 2. Getting the API Keys
+
+Once you create a project, make sure it is on the free tier that allows you to publish and reply to 1500 tweets a month.
+
+<div className="mt-4 w-full flex flex-col justify-center items-center">
+      <img className="h-[400px] mt-4" src="/images/guide/twitter-project.png"/>
+</div>
+
+
+<div className="mt-12"/>
+
+Select the project you just created from the left hand side and click on the user authentication set up.
+
+<div className="mt-4 w-full flex flex-col justify-center items-center">
+      <img className="h-[400px] mt-4" src="/images/guide/twitter-select-project.png"/>
+</div>
+
+## 3. Enable Permissions
+
+Make sure your permissions are set exactly like the image below. 
+
+<div className="mt-4 w-full flex flex-col justify-center items-center">
+      <img className="h-[400px] mt-4" src="/images/guide/twitter-selections.png"/>
+</div>
+
+Callback Url : https://api.trydisperse.com/twitter/auth/callback
+
+Website Url can be your own website or the Disperse website. (https://trydisperse.com)
+
+<div className="mt-4 w-full flex flex-col justify-center items-center">
+      <img className="h-[400px] mt-4" src="/images/guide/twitter-keys-and-tokens.png"/>
+</div>
+
+
+## 4. Connect To Disperse
+
+Copy your Client ID and Client Secret from the Twitter Developer Portal and paste them into the Disperse Twitter Integration page.
+
+<div className="mt-4 w-full flex flex-col justify-center items-center">
+      <img className="h-[400px] mt-4" src="/images/guide/connect-twitter-disperse.png"/>
+</div>
+
+Finally connect your account and you are ready to go!
